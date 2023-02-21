@@ -3,7 +3,7 @@
     <div id="tracer" class="tracer-wrapper">
       <div class="tracer"></div>
     </div>
-    <Header/>
+    <Header />
     <Main />
   </div>
 </template>

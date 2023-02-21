@@ -23,6 +23,7 @@ html,
 
 
 .tracer-wrapper{
+    pointer-events: none;
     position: absolute;
     filter: blur(12rem);
     width: fit-content;
