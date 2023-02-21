@@ -1,0 +1,16 @@
+.container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slogan {
+    font-size: 5rem;
+}
+.sub{
+    font-size: 2rem;
+    color: rgb(221, 221, 221);
+}
