@@ -48,9 +48,11 @@ html,
     }
     50% {
         scale: 1 1.5;
+        opacity: 0.6;
     }
     to {
         transform: rotateZ(360deg);
+        opacity: 1;
     }
 }
 
@@ -58,4 +60,5 @@ html,
 
 ::selection{
     background:rgb(255, 0, 238);
+    color: white;
 }

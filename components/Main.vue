@@ -14,7 +14,7 @@ export default {
     methods:{
         scramble(){
             let e = document.getElementById("slogan");
-            const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toLowerCase().split("");
+            const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ#_?!".toLowerCase().split("");
             let originalText = e.dataset.val.split("");
             let iterations = 0;
 
@@ -32,7 +32,7 @@ export default {
                 if (iterations >= originalText.length) clearInterval(ival);
 
                 iterations++;
-            }, 40);
+            }, 30);
 
             // let i = 0;
             //     setInterval(() => {

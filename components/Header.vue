@@ -1,6 +1,6 @@
 <template>
     <div class="header-container" id="navbar" @mouseover="showbg()" @mouseleave="hidebg()">
-        <div class="logo">𓋼</div>
+        <div class="logo" id="logo">𓋼</div>
         <div class="nav">
             <!-- TODO: Design logo-->
             <a href="/products">products</a>
