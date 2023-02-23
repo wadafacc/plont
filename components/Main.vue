@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div id="slogan" class="slogan" @mouseover="scramble()">no more boring cubes.</div>
+        <div id="slogan" class="slogan" @mouseover="scramble()" data-val="no more boring cubes.">no more boring cubes.</div>
         <div class="sub">spice up your desk!</div>
     </div>
 </template>
@@ -15,7 +15,7 @@ export default {
         scramble(){
             let e = document.getElementById("slogan");
             const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toLowerCase().split("");
-            let originalText = e.innerHTML.split("");
+            let originalText = e.dataset.val.split("");
             let iterations = 0;
 
             let ival = setInterval(() => {
